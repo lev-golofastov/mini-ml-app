@@ -1,6 +1,6 @@
 # Mini machine learning application
 
-This is a small Streamlit application that analyses given text and returns its summary.
+This is a small Streamlit application that analyses the text given and returns its summary.
 
 ## Install
 
