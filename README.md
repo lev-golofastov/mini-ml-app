@@ -7,7 +7,7 @@ This is a small Streamlit application that analyses the text given and returns i
 Install dependencies with pip:
 
 ```bash
-pip install -r requiremets.txt
+pip install -r requirements.txt
 ```
 
 ## Launch
