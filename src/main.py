@@ -28,11 +28,9 @@ def main():
 		for line in lines:
 			sample += line
 
-	st.write("A sample text for testing, found on model\'s web page:")
-	st.write(sample)
 
 	with st.form("my_form"):
-		txt = st.text_area("Enter your text here:")
+		txt = st.text_area("Enter your text here:", sample)
 
 		submitted = st.form_submit_button("Submit")
 		if submitted:
