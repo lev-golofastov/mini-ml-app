@@ -7,7 +7,7 @@ def analyze_text(text_to_analyze):
 	summarizer = pipeline(
 		"summarization",
 		"pszemraj/long-t5-tglobal-base-16384-book-summary",
-		device=0 if torch.cuda.is_available() else -1,
+		device = "cuda" if torch.cuda.is_available() else "cpu",
 	)
 
 	result = summarizer(text_to_analyze)
